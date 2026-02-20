@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+dataset/
+*.log
+nohup.out
+lung_cancer_model.h5
+.env
