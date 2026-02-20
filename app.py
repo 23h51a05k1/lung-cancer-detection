@@ -47,7 +47,7 @@ def ensure_model():
     try:
         from huggingface_hub import hf_hub_download
         st.info("Downloading model from Hugging Face Hub — please wait…")
-        path = hf_hub_download(repo_id=HF_REPO_ID, filename=HF_FILENAME,
+        path = hf_hub_download(repo_id=HF_REPO_ID, filename=HF_FILENAME, token=HF_TOKEN,
                                local_dir=_APP_DIR)
         if path != MODEL_PATH:
             import shutil
