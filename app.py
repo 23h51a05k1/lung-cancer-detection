@@ -35,6 +35,7 @@ MODEL_PATH = os.path.join(_APP_DIR, "lung_cancer_model.h5")
 
 # ── Auto-download model from Hugging Face Hub if not present ──────────────────
 HF_REPO_ID   = os.environ.get("HF_REPO_ID", "")          # set in Streamlit secrets
+HF_TOKEN    = os.environ.get("HF_TOKEN", "")
 HF_FILENAME  = "lung_cancer_model.h5"
 
 def ensure_model():
