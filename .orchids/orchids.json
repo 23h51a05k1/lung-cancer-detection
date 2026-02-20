@@ -1,0 +1,7 @@
+{
+  "projectId": "edcf01e3-cc62-491c-8b28-c1f09a8ca9c2",
+  "createdAt": 1771610087430,
+  "version": "1.0",
+  "startupCommands": ["pip install -r requirements.txt -q; python -m streamlit run app.py --server.port=8501 --server.address=0.0.0.0 --server.headless=true --server.enableCORS=false --server.enableXsrfProtection=false"],
+  "templateId": "any"
+}
